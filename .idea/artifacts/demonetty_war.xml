@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demonetty:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demonetty</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demonetty.war">
+      <element id="artifact" artifact-name="demonetty:war exploded" />
+    </root>
+  </artifact>
+</component>
